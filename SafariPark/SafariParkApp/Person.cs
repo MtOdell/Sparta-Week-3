@@ -8,8 +8,8 @@ namespace SafariParkApp
 {
     public class Person
     {
-        private string _firstName;
-        private string _lastName;
+        public string _firstName;
+        public string _lastName;
         public int Age { get; set; }
         public Person(string firstName, string lastName)
         {
